@@ -1,0 +1,1 @@
+"# babel-duplicate-declaration-example" 
