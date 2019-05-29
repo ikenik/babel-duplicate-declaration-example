@@ -1,0 +1,28 @@
+{
+  "name": "babel-duplicate-declaration-example",
+  "version": "1.0.0",
+  "description": "\"# babel-duplicate-declaration-example\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikenik/babel-duplicate-declaration-example.git"
+  },
+  "keywords": [
+    "babel",
+    "duplicate-declaration"
+  ],
+  "author": "ikenik",
+  "bugs": {
+    "url": "https://github.com/ikenik/babel-duplicate-declaration-example/issues"
+  },
+  "homepage": "https://github.com/ikenik/babel-duplicate-declaration-example#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3"
+  }
+}
