@@ -1,12 +1,14 @@
 ## babel-duplicate-declaration-example
 
+Example for issue [#10038](https://github.com/babel/babel/issues/10038)
+
 **See [index.js](index.js)**
 
 ### Description
 
 Example typescript code
 
-``` ts
+```ts
 module src {
     export namespace ns1 {
         export class foo {
@@ -23,7 +25,7 @@ module src {
 
 babel parser config
 
-``` js
+```js
 {
     presets: ["@babel/preset-typescript"]
 }
@@ -33,13 +35,13 @@ babel parser config
 
 Run:
 
-``` sh
+```sh
 node index.js
 ```
 
 Get an error:
 
-``` log
+```log
 D:\Git\babel-duplicate-declaration-example\node_modules\@babel\traverse\lib\scope\index.js:344
       throw this.hub.buildError(id, `Duplicate declaration "${name}"`, TypeError);
       ^
